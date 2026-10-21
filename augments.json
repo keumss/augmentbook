@@ -1,0 +1,3055 @@
+[
+  {
+    "id": "double-defense",
+    "name": "2연속 방어",
+    "en": "Double Defense",
+    "rarity": "silver",
+    "description": "지정된 스킬의 보호막이 강화됩니다. 보호막을 받는 대상의 잃은 체력이 클수록 효과가 커집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/double-defense/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "스킬 강화"
+    ],
+    "pickRate": 9.12
+  },
+  {
+    "id": "tripleshot",
+    "name": "3연발",
+    "en": "Tripleshot",
+    "rarity": "prismatic",
+    "description": "지정된 스킬이 전방의 적 두 명을 추가로 공격합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/tripleshot/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 5.57
+  },
+  {
+    "id": "hide-on-bush",
+    "name": "Hide on bush",
+    "en": "Hide On Bush",
+    "rarity": "gold",
+    "description": "수풀에 들어가면 일정 시간 피해량이 증가합니다. 수풀 안에 머물면 강화 효과가 갱신됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/hide-on-bush/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 1.81
+  },
+  {
+    "id": "pursuit-of-haste",
+    "name": "가속 추구",
+    "en": "Pursuit Of Haste",
+    "rarity": "gold",
+    "description": "지정된 스킬을 챔피언에게 반복 적중시키면 해당 스킬의 가속이 단계적으로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pursuit-of-haste/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "스킬 강화"
+    ],
+    "pickRate": 29.15
+  },
+  {
+    "id": "shrink-ray",
+    "name": "감쇠 광선",
+    "en": "Shrink Ray",
+    "rarity": "gold",
+    "description": "기본 공격이 적이 가하는 피해량을 잠시 낮추고 몸집을 줄입니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/shrink-ray/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 12.24
+  },
+  {
+    "id": "mighty-shield",
+    "name": "강력한 방패",
+    "en": "Mighty Shield",
+    "rarity": "silver",
+    "description": "보호막을 획득할 때 잠시 적응형 능력치가 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mighty-shield/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 3.33
+  },
+  {
+    "id": "heavy-hitter",
+    "name": "강타자",
+    "en": "Heavy Hitter",
+    "rarity": "silver",
+    "description": "기본 공격에 자신의 최대 체력에 비례하는 추가 물리 피해를 더합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/heavy-hitter/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "체력"
+    ],
+    "pickRate": 36.21
+  },
+  {
+    "id": "courage-of-the-colossus",
+    "name": "거석상의 용기",
+    "en": "Courage Of The Colossus",
+    "rarity": "prismatic",
+    "description": "적 챔피언을 이동 불가 상태로 만들면 최대 체력에 비례하는 보호막을 얻습니다. 여러 번 발동하면 보호막이 쌓입니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/courage-of-the-colossus/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "군중 제어"
+    ],
+    "pickRate": 8.29
+  },
+  {
+    "id": "goliath",
+    "name": "거인",
+    "en": "Goliath",
+    "rarity": "prismatic",
+    "description": "최대 체력과 적응형 능력치가 증가하며 몸집이 커집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/goliath/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 33.02
+  },
+  {
+    "id": "giant-slayer",
+    "name": "거인 학살자",
+    "en": "Giant Slayer",
+    "rarity": "prismatic",
+    "description": "몸집이 작아지고 이동 속도가 증가합니다. 자신보다 몸집이 큰 적에게 추가 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/giant-slayer/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 28.33
+  },
+  {
+    "id": "titans-resolve",
+    "name": "거인의 결의",
+    "en": "Titans Resolve",
+    "rarity": "prismatic",
+    "description": "피해를 주거나 받으면 중첩을 얻습니다. 중첩에 따라 능력치·방어력·크기·강인함이 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/titans-resolve/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "성장"
+    ],
+    "pickRate": 14.98
+  },
+  {
+    "id": "blade-waltz",
+    "name": "검무",
+    "en": "Blade Waltz",
+    "rarity": "prismatic",
+    "description": "여러 차례 공격하는 칼날 왈츠 소환사 주문을 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/blade-waltz/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 10.45
+  },
+  {
+    "id": "draw-your-sword",
+    "name": "검을 뽑아라",
+    "en": "Draw Your Sword",
+    "rarity": "prismatic",
+    "description": "기본 공격이 근접 사거리로 바뀝니다. 대신 공격 속도·체력·이동 속도·생명력 흡수가 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/draw-your-sword/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "체력",
+      "이동"
+    ],
+    "pickRate": 15.84
+  },
+  {
+    "id": "pat-on-the-back",
+    "name": "격려하기",
+    "en": "Pat On The Back",
+    "rarity": "gold",
+    "description": "주변 아군을 지나치면 격려를 받아 보호막과 이동 속도를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pat-on-the-back/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "이동"
+    ],
+    "pickRate": 3.7
+  },
+  {
+    "id": "master-of-duality",
+    "name": "결투의 대가",
+    "en": "Master Of Duality",
+    "rarity": "prismatic",
+    "description": "기본 공격과 스킬 공격을 번갈아 활용하여 능력치 강화 효과를 중첩합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/master-of-duality/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "성장"
+    ],
+    "pickRate": 10.81
+  },
+  {
+    "id": "porcupine",
+    "name": "고슴도치",
+    "en": "Porcupine",
+    "rarity": "gold",
+    "description": "적 챔피언에게 피해를 받으면 바늘을 충전합니다. 바늘 폭발이 주변 적에게 피해와 둔화를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/porcupine/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어"
+    ],
+    "pickRate": 9.13
+  },
+  {
+    "id": "goldrend",
+    "name": "골드 강탈",
+    "en": "Goldrend",
+    "rarity": "prismatic",
+    "description": "챔피언을 공격하면 추가 마법 피해와 골드를 얻고 잠시 빨라집니다. 대상마다 재발동 대기시간이 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/goldrend/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 6.57
+  },
+  {
+    "id": "dropbear",
+    "name": "곰 투하",
+    "en": "Dropbear",
+    "rarity": "prismatic",
+    "description": "사망하면 자신의 증강을 계승한 거대한 티버가 내려와 주변 적을 공격합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dropbear/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 18.7
+  },
+  {
+    "id": "terror",
+    "name": "공포",
+    "en": "Terror",
+    "rarity": "prismatic",
+    "description": "지정된 스킬을 사용할 때 주변 적에게 공포를 겁니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/terror/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어",
+      "스킬 강화"
+    ],
+    "pickRate": 2.37
+  },
+  {
+    "id": "overloaded",
+    "name": "과충전",
+    "en": "Overloaded",
+    "rarity": "prismatic",
+    "description": "다른 스킬을 사용할 때 지정된 스킬의 재사용 대기시간이 초기화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/overloaded/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "스킬 강화"
+    ],
+    "pickRate": 15.35
+  },
+  {
+    "id": "clown-college",
+    "name": "광대 대학",
+    "en": "Clown College",
+    "rarity": "prismatic",
+    "description": "샤코의 뒤에서 공격하는 효과와 분신 소환 능력을 획득합니다. 소환사 주문 하나가 분신 주문으로 바뀝니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/clown-college/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 26.68
+  },
+  {
+    "id": "zealot",
+    "name": "광신자",
+    "en": "Zealot",
+    "rarity": "silver",
+    "description": "공격 속도와 치명타 확률을 획득합니다. 주문력이 높을수록 얻는 보너스도 커집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/zealot/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "기본 공격",
+      "주문력"
+    ],
+    "pickRate": 30.46
+  },
+  {
+    "id": "upgrade-sheen",
+    "name": "광휘의 검 업그레이드",
+    "en": "Upgrade Sheen",
+    "rarity": "gold",
+    "description": "주문검 계열 아이템에 대상 최대 체력 비례 추가 피해와 체력 회복을 더하며 골드도 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/upgrade-sheen/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "골드"
+    ],
+    "pickRate": 16.81
+  },
+  {
+    "id": "ravenous-bind",
+    "name": "굶주린 속박",
+    "en": "Ravenous Bind",
+    "rarity": "gold",
+    "description": "지정된 스킬로 적의 이동을 제한하면 추가 피해를 입히고 자신의 체력을 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ravenous-bind/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "군중 제어"
+    ],
+    "pickRate": 21.06
+  },
+  {
+    "id": "ultimate-revolution",
+    "name": "궁극기 대변혁",
+    "en": "Ultimate Revolution",
+    "rarity": "prismatic",
+    "description": "궁극기 효과 발동 또는 종료 후 궁극기의 재사용 대기시간을 초기화합니다. 증강 자체의 재발동 대기시간이 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ultimate-revolution/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 18.78
+  },
+  {
+    "id": "ultimate-awakening",
+    "name": "궁극의 각성",
+    "en": "Ultimate Awakening",
+    "rarity": "prismatic",
+    "description": "궁극기를 사용하면 기본 스킬이 초기화되고 잠시 매우 높은 기본 스킬 가속을 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ultimate-awakening/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "스킬 강화"
+    ],
+    "pickRate": 21.68
+  },
+  {
+    "id": "ultimate-unstoppable",
+    "name": "궁극의 저지 불가",
+    "en": "Ultimate Unstoppable",
+    "rarity": "silver",
+    "description": "궁극기를 사용하면 잠시 군중 제어 효과에 면역이 됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ultimate-unstoppable/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 19.32
+  },
+  {
+    "id": "shadow-runner",
+    "name": "그림자 질주",
+    "en": "Shadow Runner",
+    "rarity": "silver",
+    "description": "돌진·순간이동·은신 해제 직후 매우 높은 이동 속도를 잠시 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/shadow-runner/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 24.66
+  },
+  {
+    "id": "phenomenal-evil",
+    "name": "극악무도",
+    "en": "Phenomenal Evil",
+    "rarity": "gold",
+    "description": "스킬로 적 챔피언을 맞힐 때마다 주문력이 영구적으로 증가하는 중첩을 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/phenomenal-evil/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력",
+      "성장"
+    ],
+    "pickRate": 35.51
+  },
+  {
+    "id": "growth-spurt",
+    "name": "급속 성장",
+    "en": "Growth Spurt",
+    "rarity": "gold",
+    "description": "소환사 주문 하나를 성장 폭발로 교체합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/growth-spurt/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장"
+    ],
+    "pickRate": 17.04
+  },
+  {
+    "id": "back-to-basics",
+    "name": "기본으로 돌아가기",
+    "en": "Back To Basics",
+    "rarity": "prismatic",
+    "description": "궁극기가 봉인됩니다. 대신 다른 스킬의 피해·스킬 가속과 치유·보호막 효과가 크게 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/back-to-basics/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "체력",
+      "회복"
+    ],
+    "pickRate": 28.86
+  },
+  {
+    "id": "bonk",
+    "name": "꽁!",
+    "en": "Bonk",
+    "rarity": "gold",
+    "description": "지정 스킬로 강화된 공격과 스킬이 대상 및 주변 적에게 추가 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/bonk/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 10.08
+  },
+  {
+    "id": "endless-decimation",
+    "name": "끝없는 학살",
+    "en": "Endless Decimation",
+    "rarity": "gold",
+    "description": "전투 중 주기적으로 도끼를 휘둘러 주변에 피해를 줍니다. 바깥쪽 칼날을 맞히면 피해와 체력 회복이 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/endless-decimation/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 23.46
+  },
+  {
+    "id": "king-me",
+    "name": "나는 왕이다",
+    "en": "King Me",
+    "rarity": "prismatic",
+    "description": "적 본진 근처의 관문이나 발사기에 처음 진입하면 무작위 프리즘 증강과 전설 아이템 강화 보상을 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/king-me/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 3.65
+  },
+  {
+    "id": "cant-touch-this",
+    "name": "난공불락",
+    "en": "Cant Touch This",
+    "rarity": "prismatic",
+    "description": "궁극기 사용 직후 잠시 무적이 됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/cant-touch-this/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 11.78
+  },
+  {
+    "id": "quickstep",
+    "name": "날쌘걸음",
+    "en": "Quickstep",
+    "rarity": "gold",
+    "description": "지정된 스킬을 사용하면 커서 방향으로 돌진합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/quickstep/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "스킬 강화"
+    ],
+    "pickRate": 9.57
+  },
+  {
+    "id": "hand-of-baron",
+    "name": "남작의 도움",
+    "en": "Hand Of Baron",
+    "rarity": "prismatic",
+    "description": "적응형 능력치를 강화하고 가까운 아군 미니언에게 강력한 강화 효과를 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/hand-of-baron/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 4.71
+  },
+  {
+    "id": "all-for-you",
+    "name": "너만을 위해",
+    "en": "All For You",
+    "rarity": "gold",
+    "description": "다른 아군 챔피언에게 제공하는 치유량과 보호막량이 30% 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/all-for-you/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 3.7
+  },
+  {
+    "id": "impassable",
+    "name": "넘을 수 없는 벽",
+    "en": "Impassable",
+    "rarity": "gold",
+    "description": "여진과 빙결 강화 핵심 룬을 함께 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/impassable/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 6.15
+  },
+  {
+    "id": "skilled-sniper",
+    "name": "노련한 저격수",
+    "en": "Skilled Sniper",
+    "rarity": "gold",
+    "description": "멀리 떨어진 적에게 기본 스킬을 적중시키면 해당 스킬의 남은 재사용 대기시간이 크게 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/skilled-sniper/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 26.56
+  },
+  {
+    "id": "snowday",
+    "name": "눈 오는 날",
+    "en": "Snowday",
+    "rarity": "silver",
+    "description": "눈덩이의 재사용 대기시간을 줄이고 적중 피해를 강화합니다. 눈덩이가 없다면 새로 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/snowday/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 13.49
+  },
+  {
+    "id": "snowblast",
+    "name": "눈 폭발",
+    "en": "Snowblast",
+    "rarity": "gold",
+    "description": "눈덩이를 재사용하면 추가 피해를 입히고 적을 공중에 띄우며 주변의 다른 적을 밀어냅니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/snowblast/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 9.47
+  },
+  {
+    "id": "stats-on-stats-on-stats",
+    "name": "능력치 더하기 능력치 더하기 능력치!",
+    "en": "Stats On Stats On Stats",
+    "rarity": "prismatic",
+    "description": "상위 등급 확률이 높은 능력치 모루 5개를 얻습니다. 다음 증강 선택에서 추가 새로고침 기회도 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stats-on-stats-on-stats/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 7.49
+  },
+  {
+    "id": "stats-on-stats",
+    "name": "능력치 더하기 능력치!",
+    "en": "Stats On Stats",
+    "rarity": "gold",
+    "description": "능력치 모루 4개를 획득합니다. 높은 등급의 모루가 나올 확률도 높아집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stats-on-stats/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 17.12
+  },
+  {
+    "id": "stats",
+    "name": "능력치!",
+    "en": "Stats",
+    "rarity": "silver",
+    "description": "능력치 모루 3개를 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stats/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 8.61
+  },
+  {
+    "id": "deft",
+    "name": "능수능란",
+    "en": "Deft",
+    "rarity": "silver",
+    "description": "공격 속도가 60% 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/deft/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 31.34
+  },
+  {
+    "id": "stackosaurusrex",
+    "name": "다단 중첩",
+    "en": "Stackosaurusrex",
+    "rarity": "silver",
+    "description": "챔피언 스킬로 영구 중첩을 얻을 때 획득량을 추가로 늘려줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stackosaurusrex/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장"
+    ],
+    "pickRate": 8.23
+  },
+  {
+    "id": "multishot",
+    "name": "다중 공격",
+    "en": "Multishot",
+    "rarity": "prismatic",
+    "description": "지정된 스킬을 챔피언에게 적중시키는 퀘스트입니다. 완료 단계에 따라 추가 미사일을 발사합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/multishot/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장",
+      "스킬 강화"
+    ],
+    "pickRate": 6.75
+  },
+  {
+    "id": "archmage",
+    "name": "대마법사",
+    "en": "Archmage",
+    "rarity": "prismatic",
+    "description": "스킬을 사용하면 다른 무작위 스킬의 남은 재사용 대기시간이 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/archmage/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 34.67
+  },
+  {
+    "id": "mountainsoul",
+    "name": "대지의 영혼",
+    "en": "Mountainsoul",
+    "rarity": "silver",
+    "description": "대지의 용 영혼을 획득합니다. 이미 보유했다면 다른 용 영혼을 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mountainsoul/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 4.36
+  },
+  {
+    "id": "biggest-snowball-ever",
+    "name": "데굴데굴 눈덩이!",
+    "en": "Biggest Snowball Ever",
+    "rarity": "prismatic",
+    "description": "눈덩이가 커지고 미니언을 통과합니다. 적중 시 광역 피해·공중에 띄우기·둔화를 일으킵니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/biggest-snowball-ever/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 24.87
+  },
+  {
+    "id": "stuck-in-here-with-me",
+    "name": "도망갈 수 없어",
+    "en": "Stuck In Here With Me",
+    "rarity": "prismatic",
+    "description": "궁극기 사용 후 피해 감소를 얻고 주변에 영역을 만듭니다. 잠시 뒤 영역 안의 적을 도발합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stuck-in-here-with-me/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어",
+      "스킬 강화"
+    ],
+    "pickRate": 5.4
+  },
+  {
+    "id": "high-roller",
+    "name": "도박꾼",
+    "en": "High Roller",
+    "rarity": "prismatic",
+    "description": "주변 적이 처치되면 일정 확률로 능력치 모루가 떨어집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/high-roller/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 13.33
+  },
+  {
+    "id": "escape-plan",
+    "name": "도주 계획",
+    "en": "Escape Plan",
+    "rarity": "silver",
+    "description": "체력이 낮아지면 보호막과 높은 이동 속도를 얻습니다. 이 효과는 시간이 지나면서 점차 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/escape-plan/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "이동"
+    ],
+    "pickRate": 38.78
+  },
+  {
+    "id": "juiced",
+    "name": "도취",
+    "en": "Juiced",
+    "rarity": "silver",
+    "description": "기본 공격에 최대 마나 비례 마법 피해를 더합니다. 공격할 때마다 최대 마나의 일부를 소모합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/juiced/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 12.1
+  },
+  {
+    "id": "dashing",
+    "name": "돌진",
+    "en": "Dashing",
+    "rarity": "prismatic",
+    "description": "돌진이나 순간이동 효과가 있는 스킬에 큰 폭의 스킬 가속을 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dashing/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "이동"
+    ],
+    "pickRate": 15.26
+  },
+  {
+    "id": "recursion",
+    "name": "되풀이",
+    "en": "Recursion",
+    "rarity": "gold",
+    "description": "스킬 가속을 60 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/recursion/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 61.07
+  },
+  {
+    "id": "dropkick",
+    "name": "드롭킥",
+    "en": "Dropkick",
+    "rarity": "prismatic",
+    "description": "체력이 낮은 적을 공격하면 처형하며 뒤로 밀어냅니다. 처형 시 자신의 체력도 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dropkick/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 37.85
+  },
+  {
+    "id": "from-downtown",
+    "name": "초장거리 저격",
+    "en": "From Downtown",
+    "rarity": "gold",
+    "description": "장거리 스킬 적중 퀘스트입니다. 달성 후 저격한 적 주변에 마법 피해를 주는 유성을 발사합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/from-downtown/",
+    "icon": null,
+    "aliases": [
+      "로켓 배송"
+    ],
+    "tags": [
+      "장거리",
+      "성장"
+    ],
+    "pickRate": 18.02
+  },
+  {
+    "id": "warlock-juicebox",
+    "name": "마도사의 주스 상자",
+    "en": "Warlock Juicebox",
+    "rarity": "gold",
+    "description": "모든 피해 흡혈을 추가로 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/warlock-juicebox/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "회복"
+    ],
+    "pickRate": 43.96
+  },
+  {
+    "id": "marksmage",
+    "name": "마법 명사수",
+    "en": "Marksmage",
+    "rarity": "gold",
+    "description": "기본 공격에 주문력에 비례하는 추가 물리 피해를 더합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/marksmage/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "주문력"
+    ],
+    "pickRate": 21.86
+  },
+  {
+    "id": "magic-missile",
+    "name": "마법 미사일",
+    "en": "Magic Missile",
+    "rarity": "gold",
+    "description": "스킬로 챔피언을 맞히면 미사일을 발사합니다. 미사일은 이동 거리에 따라 증가하는 최대 체력 비례 고정 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/magic-missile/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 29.51
+  },
+  {
+    "id": "hextech-soul",
+    "name": "마법공학의 영혼",
+    "en": "Hextech Soul",
+    "rarity": "silver",
+    "description": "마법공학 용 영혼을 획득합니다. 이미 보유했다면 다른 용 영혼을 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/hextech-soul/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 14.78
+  },
+  {
+    "id": "escapade",
+    "name": "마법사 (물리)",
+    "en": "Escapade",
+    "rarity": "silver",
+    "description": "주문력을 공격력으로 변환하여 공격력 중심 빌드를 강화합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/escapade/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력"
+    ],
+    "pickRate": 21.81
+  },
+  {
+    "id": "squishy-slappy-grab",
+    "name": "말랑 찰싹 손",
+    "en": "Squishy Slappy Grab",
+    "rarity": "prismatic",
+    "description": "주변 적들과 주기적으로 연결됩니다. 다음 기본 공격으로 연결된 적들을 자신에게 끌어당깁니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/squishy-slappy-grab/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 3.25
+  },
+  {
+    "id": "echo-cast",
+    "name": "메아리 시전",
+    "en": "Echo Cast",
+    "rarity": "prismatic",
+    "description": "지정 스킬을 사용하면 커서 방향으로 분신이 나타나 같은 스킬을 다시 사용합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/echo-cast/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 7.5
+  },
+  {
+    "id": "overextender",
+    "name": "무리한 진입",
+    "en": "Overextender",
+    "rarity": "gold",
+    "description": "귀환 후 사용할 수 있는 대포의 사거리·이동 속도·피해량이 크게 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/overextender/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 3.46
+  },
+  {
+    "id": "outlaws-grit",
+    "name": "무법자의 투지",
+    "en": "Outlaws Grit",
+    "rarity": "gold",
+    "description": "돌진·순간이동을 사용할 때마다 방어력과 마법 저항력을 중첩하여 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/outlaws-grit/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "이동",
+      "성장"
+    ],
+    "pickRate": 10.48
+  },
+  {
+    "id": "infinite-recursion",
+    "name": "무한 반복",
+    "en": "Infinite Recursion",
+    "rarity": "prismatic",
+    "description": "스킬 가속 60을 얻으며 적 챔피언 처치 관여마다 스킬 가속이 추가로 성장합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/infinite-recursion/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "성장"
+    ],
+    "pickRate": 32.54
+  },
+  {
+    "id": "upgrade-infinity-edge",
+    "name": "무한의 대검 업그레이드",
+    "en": "Upgrade Infinity Edge",
+    "rarity": "gold",
+    "description": "무한의 대검을 강화하고 추가 치명타 확률과 골드를 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/upgrade-infinity-edge/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "골드"
+    ],
+    "pickRate": 37.26
+  },
+  {
+    "id": "mad-scientist",
+    "name": "미친 과학자",
+    "en": "Mad Scientist",
+    "rarity": "prismatic",
+    "description": "부활할 때마다 거대화 또는 소형화 효과를 얻습니다. 거대화는 체력·능력치, 소형화는 스킬 가속·이동 속도를 강화합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mad-scientist/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "체력",
+      "이동"
+    ],
+    "pickRate": 32.71
+  },
+  {
+    "id": "homeguard",
+    "name": "민병대",
+    "en": "Homeguard",
+    "rarity": "silver",
+    "description": "이동 속도가 크게 증가합니다. 적 챔피언에게 피해를 받으면 보너스가 잠시 중단됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/homeguard/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 28.21
+  },
+  {
+    "id": "trusty-weapon",
+    "name": "믿음직한 무기",
+    "en": "Trusty Weapon",
+    "rarity": "silver",
+    "description": "지정 스킬로 챔피언을 맞히면 우정을 쌓습니다. 우정 단계에 따라 해당 스킬의 피해량이 일시적으로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/trusty-weapon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 8.51
+  },
+  {
+    "id": "pin-cushion",
+    "name": "바늘꽂이",
+    "en": "Pin Cushion",
+    "rarity": "prismatic",
+    "description": "지정된 스킬의 강화 시간에 기본 공격으로 대못을 박습니다. 누적 피해로 처형을 노리고 효과 종료 시 이동 속도를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pin-cushion/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동",
+      "스킬 강화"
+    ],
+    "pickRate": 5.09
+  },
+  {
+    "id": "thread-the-needle",
+    "name": "바늘에 실 끼우기",
+    "en": "Thread The Needle",
+    "rarity": "gold",
+    "description": "방어구 관통력과 마법 관통력을 각각 18% 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/thread-the-needle/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 30.72
+  },
+  {
+    "id": "ocean-soul",
+    "name": "바다의 영혼",
+    "en": "Ocean Soul",
+    "rarity": "silver",
+    "description": "바다의 용 영혼을 얻어 유지력을 강화합니다. 이미 보유했다면 다른 용 영혼을 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ocean-soul/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 20.36
+  },
+  {
+    "id": "windspeakers-blessing",
+    "name": "바람전달자의 축복",
+    "en": "Windspeakers Blessing",
+    "rarity": "prismatic",
+    "description": "치유나 보호막을 받은 대상에게 잠시 방어력과 마법 저항력 보너스를 부여합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/windspeakers-blessing/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 3.48
+  },
+  {
+    "id": "nightstalking",
+    "name": "밤의 추적",
+    "en": "Nightstalking",
+    "rarity": "gold",
+    "description": "최근 피해를 준 적 챔피언 처치에 관여하면 잠시 투명해집니다. 공격하거나 스킬을 쓰면 은신이 끝납니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/nightstalking/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 18.73
+  },
+  {
+    "id": "surge-field",
+    "name": "방출 역장",
+    "en": "Surge Field",
+    "rarity": "prismatic",
+    "description": "궁극기 사용 시 스킬 가속과 이동 속도를 높이는 영역을 만듭니다. 영역 안에서 추가 투사체 공격이 발생합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/surge-field/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "이동",
+      "스킬 강화"
+    ],
+    "pickRate": 3.73
+  },
+  {
+    "id": "overflow",
+    "name": "범람",
+    "en": "Overflow",
+    "rarity": "gold",
+    "description": "스킬 마나 소모가 늘어나는 대신 최대 마나에 비례해 피해량과 치유·보호막 효과가 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/overflow/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 11.77
+  },
+  {
+    "id": "jeweled-gauntlet",
+    "name": "보석 건틀릿",
+    "en": "Jeweled Gauntlet",
+    "rarity": "prismatic",
+    "description": "스킬 피해에도 치명타를 적용할 수 있습니다. 치명타 확률을 얻으며 주문력에 비례해 추가로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/jeweled-gauntlet/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "주문력"
+    ],
+    "pickRate": 51.83
+  },
+  {
+    "id": "ok-boomerang",
+    "name": "부메랑 투척",
+    "en": "Ok Boomerang",
+    "rarity": "gold",
+    "description": "주기적으로 가까운 적 챔피언에게 부메랑을 자동 발사하여 적응형 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ok-boomerang/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 3.35
+  },
+  {
+    "id": "erosion",
+    "name": "부식",
+    "en": "Erosion",
+    "rarity": "silver",
+    "description": "피해를 줄 때 적의 방어력과 마법 저항력을 감소시킵니다. 반복 공격으로 방어력 감소를 중첩할 수 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/erosion/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "성장"
+    ],
+    "pickRate": 22.02
+  },
+  {
+    "id": "ominous-pact",
+    "name": "불길한 서약",
+    "en": "Ominous Pact",
+    "rarity": "prismatic",
+    "description": "스킬을 사용할 때 체력을 소모합니다. 체력이 줄수록 주문력·이동 속도·모든 피해 흡혈을 더 많이 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ominous-pact/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력",
+      "체력",
+      "회복"
+    ],
+    "pickRate": 8.38
+  },
+  {
+    "id": "upgrade-immolate",
+    "name": "불사르기 업그레이드",
+    "en": "Upgrade Immolate",
+    "rarity": "silver",
+    "description": "바미 계열 화상 아이템을 강화합니다. 챔피언에게 화상 피해를 주면 추가 골드를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/upgrade-immolate/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "지속 피해",
+      "골드"
+    ],
+    "pickRate": 19.47
+  },
+  {
+    "id": "firefox",
+    "name": "불여우",
+    "en": "Firefox",
+    "rarity": "silver",
+    "description": "주기적으로 여우불을 자동 시전합니다. 주변 적을 공격하는 화염과 일시적인 이동 속도를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/firefox/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 10.17
+  },
+  {
+    "id": "light-em-up",
+    "name": "불을 밝혀",
+    "en": "Light Em Up",
+    "rarity": "silver",
+    "description": "기본 공격으로 중첩을 쌓습니다. 4회 중첩 시 폭죽을 연속 발사해 추가 마법 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/light-em-up/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "성장"
+    ],
+    "pickRate": 9.41
+  },
+  {
+    "id": "spin-me-right-round",
+    "name": "빙글빙글",
+    "en": "Spin Me Right Round",
+    "rarity": "silver",
+    "description": "갈고리로 지형 주위를 회전하며 사격하는 영웅의 도약을 얻습니다. 재사용으로 원하는 지점에 뛰어내립니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/spin-me-right-round/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 3.17
+  },
+  {
+    "id": "dawnbringers-resolve",
+    "name": "빛의 인도자 결의",
+    "en": "Dawnbringers Resolve",
+    "rarity": "gold",
+    "description": "체력이 절반 아래로 내려가면 일정 시간에 걸쳐 최대 체력의 일부를 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dawnbringers-resolve/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 15.3
+  },
+  {
+    "id": "swift-and-safe",
+    "name": "빠르고 안전하게",
+    "en": "Swift And Safe",
+    "rarity": "silver",
+    "description": "돌진이나 순간이동을 사용한 후 잠시 보호막을 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/swift-and-safe/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "이동"
+    ],
+    "pickRate": 12.81
+  },
+  {
+    "id": "bread-and-butter",
+    "name": "빵과 버터",
+    "en": "Bread And Butter",
+    "rarity": "gold",
+    "description": "Q 스킬에 스킬 가속 100을 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/bread-and-butter/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 29.36
+  },
+  {
+    "id": "bread-and-jam",
+    "name": "빵과 잼",
+    "en": "Bread And Jam",
+    "rarity": "gold",
+    "description": "W 스킬에 스킬 가속 100을 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/bread-and-jam/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 20.06
+  },
+  {
+    "id": "bread-and-cheese",
+    "name": "빵과 치즈",
+    "en": "Bread And Cheese",
+    "rarity": "gold",
+    "description": "E 스킬에 스킬 가속 100을 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/bread-and-cheese/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 23.14
+  },
+  {
+    "id": "wee-woo-wee-woo",
+    "name": "삐뽀삐뽀",
+    "en": "Wee Woo Wee Woo",
+    "rarity": "gold",
+    "description": "체력이 낮은 아군을 향해 더 빠르게 이동합니다. 해당 아군에 대한 치유와 보호막도 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/wee-woo-wee-woo/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 2.91
+  },
+  {
+    "id": "witchful-thinking",
+    "name": "사악한 정신",
+    "en": "Witchful Thinking",
+    "rarity": "silver",
+    "description": "레벨에 따라 주문력을 추가로 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/witchful-thinking/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력"
+    ],
+    "pickRate": 29.68
+  },
+  {
+    "id": "scopier-weapons",
+    "name": "상급 조준경 부착",
+    "en": "Scopier Weapons",
+    "rarity": "gold",
+    "description": "기본 공격 사거리가 크게 증가합니다. 근접·원거리 챔피언의 증가량이 다릅니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/scopier-weapons/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동"
+    ],
+    "pickRate": 29.54
+  },
+  {
+    "id": "shark-bait",
+    "name": "상어 미끼",
+    "en": "Shark Bait",
+    "rarity": "gold",
+    "description": "사망 후에도 잠시 움직일 수 있습니다. 잠시 뒤 주변 적을 공격하는 상어가 나타납니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/shark-bait/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 6.64
+  },
+  {
+    "id": "shark-tempest",
+    "name": "상어 폭풍",
+    "en": "Shark Tempest",
+    "rarity": "gold",
+    "description": "눈덩이 주변의 상어가 적에게 피해와 둔화를 줍니다. 챔피언에게 눈덩이를 맞히면 상어 폭풍이 대상을 감쌉니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/shark-tempest/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 8.44
+  },
+  {
+    "id": "rabble-rousing",
+    "name": "원기 회복",
+    "en": "Rabble Rousing",
+    "rarity": "gold",
+    "description": "스킬을 사용할 때마다 자신의 체력을 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/rabble-rousing/",
+    "icon": null,
+    "aliases": [
+      "선동"
+    ],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 3.62
+  },
+  {
+    "id": "goredrink",
+    "name": "선혈포식",
+    "en": "Goredrink",
+    "rarity": "silver",
+    "description": "모든 피해 흡혈이 15% 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/goredrink/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "회복"
+    ],
+    "pickRate": 39.9
+  },
+  {
+    "id": "sonata",
+    "name": "소나타",
+    "en": "Sonata",
+    "rarity": "gold",
+    "description": "주기적으로 소나의 치유·보호막 곡과 이동 속도 곡을 번갈아 자동 시전합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/sonata/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "이동"
+    ],
+    "pickRate": 4.15
+  },
+  {
+    "id": "minionmancer",
+    "name": "소환술사",
+    "en": "Minionmancer",
+    "rarity": "gold",
+    "description": "소환한 동료의 피해량과 체력이 증가하고 몸집이 커집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/minionmancer/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 6.36
+  },
+  {
+    "id": "dont-blink",
+    "name": "속전속결",
+    "en": "Dont Blink",
+    "rarity": "silver",
+    "description": "상대보다 이동 속도가 빠를수록 가하는 피해량이 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dont-blink/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 7.04
+  },
+  {
+    "id": "with-haste",
+    "name": "속행",
+    "en": "With Haste",
+    "rarity": "gold",
+    "description": "보유한 스킬 가속에 비례하여 이동 속도가 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/with-haste/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "이동"
+    ],
+    "pickRate": 18.29
+  },
+  {
+    "id": "purist-caster",
+    "name": "순수주의자 - 마법사",
+    "en": "Purist Caster",
+    "rarity": "silver",
+    "description": "추가 공격 속도를 스킬 가속으로 전환하며 스킬의 재사용 대기시간도 추가로 줄입니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/purist-caster/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "기본 공격"
+    ],
+    "pickRate": 41.61
+  },
+  {
+    "id": "spin-to-win",
+    "name": "승리를 위한 회전",
+    "en": "Spin To Win",
+    "rarity": "silver",
+    "description": "회전형 스킬의 피해량을 강화하고 해당 스킬에 추가 스킬 가속을 제공합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/spin-to-win/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속"
+    ],
+    "pickRate": 17.61
+  },
+  {
+    "id": "from-beginning-to-end",
+    "name": "시작부터 끝까지",
+    "en": "From Beginning To End",
+    "rarity": "gold",
+    "description": "어둠의 수확과 선제공격 핵심 룬을 함께 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/from-beginning-to-end/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 32.59
+  },
+  {
+    "id": "get-excited",
+    "name": "신난다!",
+    "en": "Get Excited",
+    "rarity": "gold",
+    "description": "적 챔피언 처치에 관여하면 잠시 이동 속도와 공격 속도가 크게 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/get-excited/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동"
+    ],
+    "pickRate": 22.46
+  },
+  {
+    "id": "empowered-by-the-faithful",
+    "name": "신념을 통한 강화",
+    "en": "Empowered By The Faithful",
+    "rarity": "prismatic",
+    "description": "치유·보호막을 받은 아군의 공격으로 중첩을 쌓습니다. 최대 중첩에서 충격파를 일으키고 체력이 낮은 적을 처형합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/empowered-by-the-faithful/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "성장"
+    ],
+    "pickRate": 2.82
+  },
+  {
+    "id": "mystic-punch",
+    "name": "신비한 주먹",
+    "en": "Mystic Punch",
+    "rarity": "prismatic",
+    "description": "기본 공격이 적중할 때마다 스킬의 남은 재사용 대기시간이 1.25초 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mystic-punch/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "기본 공격"
+    ],
+    "pickRate": 27.82
+  },
+  {
+    "id": "holy-snowball",
+    "name": "신성한 눈덩이",
+    "en": "Holy Snowball",
+    "rarity": "prismatic",
+    "description": "눈덩이 돌진 도착 직후 잠시 무적이 되며, 눈덩이 재사용 대기시간도 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/holy-snowball/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 7.53
+  },
+  {
+    "id": "divine-intervention",
+    "name": "신성한 중재",
+    "en": "Divine Intervention",
+    "rarity": "gold",
+    "description": "주기적으로 자신과 가까운 아군에게 잠시 뒤 발동하는 무적 효과를 부여합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/divine-intervention/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 11.21
+  },
+  {
+    "id": "twin-fire",
+    "name": "쌍둥이 불꽃",
+    "en": "Twin Fire",
+    "rarity": "silver",
+    "description": "치명타 확률을 획득합니다. 피해 스킬에 폭죽 미사일이 추가되며 치명타 확률이 높을수록 미사일 수가 늘어납니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/twin-fire/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타"
+    ],
+    "pickRate": 39.16
+  },
+  {
+    "id": "pressure-cooker",
+    "name": "압력솥",
+    "en": "Pressure Cooker",
+    "rarity": "gold",
+    "description": "주변 적에게 최대 체력 비례 화상을 가합니다. 화상 피해 퀘스트가 진행될수록 크기와 피해량이 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pressure-cooker/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "지속 피해",
+      "성장"
+    ],
+    "pickRate": 17.96
+  },
+  {
+    "id": "en-passant",
+    "name": "앙파상",
+    "en": "En Passant",
+    "rarity": "prismatic",
+    "description": "적의 급소가 주기적으로 드러납니다. 급소를 공격하면 고정 피해를 주고 체력 회복과 이동 속도를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/en-passant/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "이동"
+    ],
+    "pickRate": 7.44
+  },
+  {
+    "id": "dual-wield",
+    "name": "양손잡이",
+    "en": "Dual Wield",
+    "rarity": "prismatic",
+    "description": "기본 공격 뒤에 추가 화살이 발사되어 피해와 일부 적중 시 효과를 적용합니다. 공격 속도도 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dual-wield/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 27.03
+  },
+  {
+    "id": "chain-reaction",
+    "name": "연쇄 반응",
+    "en": "Chain Reaction",
+    "rarity": "gold",
+    "description": "지정 스킬로 밀어낸 적이 다른 적이나 지형에 충돌하면 공중에 뜨고 추가 피해를 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/chain-reaction/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어",
+      "스킬 강화"
+    ],
+    "pickRate": 7.46
+  },
+  {
+    "id": "hellbent",
+    "name": "열의",
+    "en": "Hellbent",
+    "rarity": "prismatic",
+    "description": "적 챔피언을 공격하며 중첩을 쌓습니다. 최대 중첩에서는 사망 시 강화된 상태로 부활합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/hellbent/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장"
+    ],
+    "pickRate": 5.72
+  },
+  {
+    "id": "spirit-bomb",
+    "name": "영혼 폭탄",
+    "en": "Spirit Bomb",
+    "rarity": "prismatic",
+    "description": "아군을 치유하거나 보호하면 중첩을 얻습니다. 최대 중첩에서 체력이 낮은 아군에게 광역 치유·보호막 폭탄을 보냅니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/spirit-bomb/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "성장"
+    ],
+    "pickRate": 3.44
+  },
+  {
+    "id": "soul-siphon",
+    "name": "영혼 흡수",
+    "en": "Soul Siphon",
+    "rarity": "gold",
+    "description": "치명타 확률을 얻으며 치명타로 가한 피해의 일부만큼 체력을 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/soul-siphon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "체력",
+      "회복"
+    ],
+    "pickRate": 36.23
+  },
+  {
+    "id": "spiritual-purification",
+    "name": "영혼의 정화",
+    "en": "Spiritual Purification",
+    "rarity": "gold",
+    "description": "처치 관여한 적 주변에 폭발과 둔화 지대를 남깁니다. 폭발 피해는 해당 적의 현재 체력에 비례합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/spiritual-purification/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "군중 제어"
+    ],
+    "pickRate": 11.99
+  },
+  {
+    "id": "soul-eater",
+    "name": "영혼의 포식자",
+    "en": "Soul Eater",
+    "rarity": "gold",
+    "description": "적 챔피언의 이동을 제한할 때마다 최대 체력이 영구적으로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/soul-eater/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "군중 제어",
+      "성장"
+    ],
+    "pickRate": 9.99
+  },
+  {
+    "id": "fey-magic",
+    "name": "요정 마법",
+    "en": "Fey Magic",
+    "rarity": "prismatic",
+    "description": "궁극기로 피해를 받은 적을 잠시 변이시켜 공격을 막고 이동을 방해합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/fey-magic/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어",
+      "스킬 강화"
+    ],
+    "pickRate": 11.91
+  },
+  {
+    "id": "slap-around",
+    "name": "우당탕탕",
+    "en": "Slap Around",
+    "rarity": "silver",
+    "description": "적의 이동을 제한할 때마다 적응형 능력치를 누적합니다. 사망하면 누적 중첩 일부를 잃습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/slap-around/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어",
+      "성장"
+    ],
+    "pickRate": 18.7
+  },
+  {
+    "id": "our-healing",
+    "name": "우리의 치유",
+    "en": "Our Healing",
+    "rarity": "gold",
+    "description": "주변에서 발생한 체력 회복의 일부를 자신도 회복합니다. 적의 치유에는 더 큰 비율이 적용됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/our-healing/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 6.22
+  },
+  {
+    "id": "pursuit-of-power",
+    "name": "위력 추구",
+    "en": "Pursuit Of Power",
+    "rarity": "silver",
+    "description": "지정 스킬을 챔피언에게 반복 적중시키는 퀘스트입니다. 완료하면 해당 스킬의 피해량이 영구적으로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pursuit-of-power/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장",
+      "스킬 강화"
+    ],
+    "pickRate": 26.71
+  },
+  {
+    "id": "eureka",
+    "name": "유레카",
+    "en": "Eureka",
+    "rarity": "prismatic",
+    "description": "주문력의 30%에 해당하는 스킬 가속을 추가로 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/eureka/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "주문력"
+    ],
+    "pickRate": 40.12
+  },
+  {
+    "id": "glass-cannon",
+    "name": "유리 대포",
+    "en": "Glass Cannon",
+    "rarity": "prismatic",
+    "description": "최대 체력에 제약이 생기는 대신 피해의 일부를 추가 고정 피해로 가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/glass-cannon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 4.47
+  },
+  {
+    "id": "blunt-force",
+    "name": "육중한 힘",
+    "en": "Blunt Force",
+    "rarity": "silver",
+    "description": "공격력을 일정 비율만큼 높여 공격력 중심 빌드를 강화합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/blunt-force/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 47.61
+  },
+  {
+    "id": "yowch-my-coins",
+    "name": "으악, 내 동전!",
+    "en": "Yowch My Coins",
+    "rarity": "gold",
+    "description": "처치에 관여한 적이 동전을 떨어뜨립니다. 자신과 아군이 동전을 주워 골드를 얻을 수 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/yowch-my-coins/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 10.51
+  },
+  {
+    "id": "sonic-boom",
+    "name": "음속 폭발",
+    "en": "Sonic Boom",
+    "rarity": "silver",
+    "description": "아군을 강화·치유·보호하면 그 주변 적에게 고정 피해를 주고 둔화시킵니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/sonic-boom/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "회복",
+      "군중 제어"
+    ],
+    "pickRate": 4.84
+  },
+  {
+    "id": "first-aid-kit",
+    "name": "응급처치 키트",
+    "en": "First Aid Kit",
+    "rarity": "silver",
+    "description": "자신이 제공하는 체력 회복과 보호막 효과가 20% 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/first-aid-kit/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 5.63
+  },
+  {
+    "id": "tooth-fairy",
+    "name": "이빨 요정",
+    "en": "Tooth Fairy",
+    "rarity": "gold",
+    "description": "폭발적인 피해를 받은 적이 이빨을 떨어뜨립니다. 이를 주우면 물리·마법 관통력이 영구적으로 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/tooth-fairy/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장"
+    ],
+    "pickRate": 39.88
+  },
+  {
+    "id": "void-immolation",
+    "name": "이케시아의 몰락",
+    "en": "Void Immolation",
+    "rarity": "prismatic",
+    "description": "바미의 불씨를 얻습니다. 태양불꽃 방패와 공허한 광휘를 갖추면 두 아이템이 공허 화염으로 결합됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/void-immolation/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 8.81
+  },
+  {
+    "id": "mercys-strike",
+    "name": "자비의 일격",
+    "en": "Mercys Strike",
+    "rarity": "gold",
+    "description": "지정 스킬 사용 후 다음 기본 공격의 사거리·공격 속도가 증가하고 대상 최대 체력 비례 피해를 더합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mercys-strike/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "체력",
+      "이동"
+    ],
+    "pickRate": 2.1
+  },
+  {
+    "id": "nature-is-healing",
+    "name": "자연의 회복",
+    "en": "Nature Is Healing",
+    "rarity": "gold",
+    "description": "수풀에 머무르는 동안 최대 체력에 비례하여 체력을 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/nature-is-healing/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 7.31
+  },
+  {
+    "id": "lil-extra-help",
+    "name": "작은 도움",
+    "en": "Lil Extra Help",
+    "rarity": "gold",
+    "description": "지정된 스킬의 효과가 유지되는 동안 공격 사거리와 공격 속도가 상승합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/lil-extra-help/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동",
+      "스킬 강화"
+    ],
+    "pickRate": 15.15
+  },
+  {
+    "id": "cruelty",
+    "name": "잔혹 행위",
+    "en": "Cruelty",
+    "rarity": "prismatic",
+    "description": "적의 이동을 제한하면 해당 위치에 혜성이 떨어져 주변에 마법 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/cruelty/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "군중 제어"
+    ],
+    "pickRate": 8.64
+  },
+  {
+    "id": "forged-by-the-master",
+    "name": "장인의 솜씨",
+    "en": "Forged By The Master",
+    "rarity": "silver",
+    "description": "아이템과 증강 효과로 가하는 피해량이 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/forged-by-the-master/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 33.78
+  },
+  {
+    "id": "adapt",
+    "name": "적응형 능력치",
+    "en": "Adapt",
+    "rarity": "silver",
+    "description": "공격력을 주문력으로 전환하고 주문력을 추가로 강화합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/adapt/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력"
+    ],
+    "pickRate": 44.71
+  },
+  {
+    "id": "adaptive-ward",
+    "name": "적응형 와드",
+    "en": "Adaptive Ward",
+    "rarity": "silver",
+    "description": "지정 스킬로 적을 맞히면 상대 피해 유형에 맞춰 방어력 또는 마법 저항력을 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/adaptive-ward/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "스킬 강화"
+    ],
+    "pickRate": 5.77
+  },
+  {
+    "id": "omni-soul",
+    "name": "전능의 영혼",
+    "en": "Omni Soul",
+    "rarity": "prismatic",
+    "description": "무작위 용 영혼 3개를 한 번에 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/omni-soul/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 8.93
+  },
+  {
+    "id": "big-brain",
+    "name": "전술적 대비",
+    "en": "Big Brain",
+    "rarity": "gold",
+    "description": "주문력에 비례한 보호막을 획득합니다. 보호막은 부활하거나 일정 시간이 지나면 다시 생성됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/big-brain/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "주문력",
+      "체력"
+    ],
+    "pickRate": 11.03
+  },
+  {
+    "id": "symphony-of-war",
+    "name": "전장의 교향곡",
+    "en": "Symphony Of War",
+    "rarity": "prismatic",
+    "description": "정복자와 치명적 속도 핵심 룬을 함께 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/symphony-of-war/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 13.19
+  },
+  {
+    "id": "transmute-prismatic",
+    "name": "전환: 프리즘",
+    "en": "Transmute Prismatic",
+    "rarity": "gold",
+    "description": "이번에 함께 제시된 다른 두 선택지를 제외하고, 무작위 프리즘 증강 하나를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/transmute-prismatic/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 64.28
+  },
+  {
+    "id": "transmute-chaos",
+    "name": "전환: 혼돈",
+    "en": "Transmute Chaos",
+    "rarity": "prismatic",
+    "description": "이번에 함께 제시된 다른 선택지를 제외하고 무작위 증강 두 개를 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/transmute-chaos/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 28.79
+  },
+  {
+    "id": "flash-2",
+    "name": "점멸 2",
+    "en": "Flash 2",
+    "rarity": "silver",
+    "description": "소환사 주문 하나가 점멸로 바뀌며 소환사 주문 가속을 추가로 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/flash-2/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 0.68
+  },
+  {
+    "id": "flashbang",
+    "name": "점멸탄",
+    "en": "Flashbang",
+    "rarity": "silver",
+    "description": "점멸 도착 지점에 피해와 둔화를 주는 폭발을 일으킵니다. 사망하면 점멸 재사용 대기시간이 초기화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/flashbang/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 0.74
+  },
+  {
+    "id": "mind-to-matter",
+    "name": "정신 변환",
+    "en": "Mind To Matter",
+    "rarity": "silver",
+    "description": "최대 마나의 50%에 해당하는 추가 체력을 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/mind-to-matter/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 19.51
+  },
+  {
+    "id": "scoped-weapons",
+    "name": "조준경 부착",
+    "en": "Scoped Weapons",
+    "rarity": "silver",
+    "description": "기본 공격 사거리가 늘어납니다. 근접·원거리 챔피언의 증가량이 다릅니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/scoped-weapons/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동"
+    ],
+    "pickRate": 20.22
+  },
+  {
+    "id": "upgrade-zhonyas",
+    "name": "존야 업그레이드",
+    "en": "Upgrade Zhonyas",
+    "rarity": "silver",
+    "description": "존야 계열 정지 효과 중에도 이동할 수 있으며 이동 속도 보너스를 얻습니다. 존야의 재사용 대기시간도 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/upgrade-zhonyas/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 22.64
+  },
+  {
+    "id": "spell-split",
+    "name": "주문 분산",
+    "en": "Spell Split",
+    "rarity": "prismatic",
+    "description": "지정된 투사체가 적중하거나 최대 거리에 도달하면 두 갈래로 나뉩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/spell-split/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 8.54
+  },
+  {
+    "id": "circle-of-death",
+    "name": "죽음의 순환",
+    "en": "Circle Of Death",
+    "rarity": "prismatic",
+    "description": "자신이 제공하는 치유와 체력 재생의 일부를 주변 적 챔피언에게 마법 피해로 전환합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/circle-of-death/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 8.67
+  },
+  {
+    "id": "triggered-inferno",
+    "name": "지옥불 난사 발동",
+    "en": "Triggered Inferno",
+    "rarity": "prismatic",
+    "description": "서로 다른 공격으로 스타일 중첩을 쌓고 이동 속도를 얻습니다. 최대 중첩을 활용해 지옥불 난사를 발동합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/triggered-inferno/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "성장"
+    ],
+    "pickRate": 14.25
+  },
+  {
+    "id": "infernal-soul",
+    "name": "지옥불 영혼",
+    "en": "Infernal Soul",
+    "rarity": "silver",
+    "description": "지옥불 용 영혼을 획득합니다. 이미 보유했다면 다른 용 영혼을 받습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/infernal-soul/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 15.98
+  },
+  {
+    "id": "infernal-conduit",
+    "name": "지옥의 전도체",
+    "en": "Infernal Conduit",
+    "rarity": "prismatic",
+    "description": "스킬이 적에게 중첩 가능한 마법 화상을 남겨 지속 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/infernal-conduit/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "지속 피해",
+      "성장"
+    ],
+    "pickRate": 23.09
+  },
+  {
+    "id": "terraind",
+    "name": "지형 생성됨",
+    "en": "Terraind",
+    "rarity": "gold",
+    "description": "지정된 스킬이 주변 지역에도 피해를 주도록 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/terraind/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 5.26
+  },
+  {
+    "id": "upgrade-collector",
+    "name": "징수의 총 업그레이드",
+    "en": "Upgrade Collector",
+    "rarity": "silver",
+    "description": "징수의 총을 강화합니다. 챔피언 처치마다 처형 기준이 성장하고 추가 처치 골드를 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/upgrade-collector/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장",
+      "골드"
+    ],
+    "pickRate": 32.34
+  },
+  {
+    "id": "ice-cold",
+    "name": "차가운 냉기",
+    "en": "Ice Cold",
+    "rarity": "silver",
+    "description": "자신이 거는 둔화가 적의 이동 속도를 추가로 낮춥니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ice-cold/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 27.4
+  },
+  {
+    "id": "dimension-shift",
+    "name": "차원 이동",
+    "en": "Dimension Shift",
+    "rarity": "prismatic",
+    "description": "주변 대상을 다른 차원으로 이동시키는 영역형 소환사 주문을 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dimension-shift/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 1.63
+  },
+  {
+    "id": "empyrean-promise",
+    "name": "창공의 서약",
+    "en": "Empyrean Promise",
+    "rarity": "prismatic",
+    "description": "소환사 주문 하나가 아군을 지원하는 창공의 서약으로 바뀌며 치유·보호막 효과가 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/empyrean-promise/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 1.34
+  },
+  {
+    "id": "dont-change-the-channel",
+    "name": "채널 고정",
+    "en": "Dont Change The Channel",
+    "rarity": "silver",
+    "description": "정신 집중을 유지하는 동안 주기적으로 보호막을 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dont-change-the-channel/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 7.4
+  },
+  {
+    "id": "its-killing-time",
+    "name": "처형 시간",
+    "en": "Its Killing Time",
+    "rarity": "gold",
+    "description": "궁극기를 사용하면 적들에게 표식을 남깁니다. 이후 가한 피해 일부를 저장했다가 표식 종료 시 고정 피해로 폭발시킵니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/its-killing-time/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 강화"
+    ],
+    "pickRate": 21.77
+  },
+  {
+    "id": "celestial-body",
+    "name": "천상의 신체",
+    "en": "Celestial Body",
+    "rarity": "gold",
+    "description": "체력이 1,250 증가하는 대신 가하는 피해량이 10% 감소합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/celestial-body/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 27.04
+  },
+  {
+    "id": "rite-of-ascension",
+    "name": "초월 의식",
+    "en": "Rite Of Ascension",
+    "rarity": "prismatic",
+    "description": "처치에 관여한 적이 정수를 남깁니다. 정수를 공격하면 기본 스킬이 초기화되고 이동 속도가 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/rite-of-ascension/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "이동"
+    ],
+    "pickRate": 13.49
+  },
+  {
+    "id": "scopiest-weapons",
+    "name": "최상급 조준경 부착",
+    "en": "Scopiest Weapons",
+    "rarity": "prismatic",
+    "description": "기본 공격 사거리가 대폭 증가합니다. 근접·원거리 챔피언에 따라 증가량이 다릅니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/scopiest-weapons/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동"
+    ],
+    "pickRate": 17.92
+  },
+  {
+    "id": "final-form",
+    "name": "최종 형태",
+    "en": "Final Form",
+    "rarity": "prismatic",
+    "description": "궁극기를 사용하면 보호막·모든 피해 흡혈·이동 속도를 얻어 일정 시간 강화됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/final-form/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "이동"
+    ],
+    "pickRate": 21.93
+  },
+  {
+    "id": "apex-inventor",
+    "name": "최첨단 발명가",
+    "en": "Apex Inventor",
+    "rarity": "gold",
+    "description": "아이템 가속 100을 얻어 아이템 효과의 재사용 대기시간을 줄입니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/apex-inventor/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 14.13
+  },
+  {
+    "id": "shrink-engine",
+    "name": "축소 엔진",
+    "en": "Shrink Engine",
+    "rarity": "gold",
+    "description": "처치 관여마다 스킬 가속·이동 속도가 증가하고 몸집이 작아집니다. 사망하면 누적 중첩의 일부를 잃습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/shrink-engine/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "스킬 가속",
+      "이동",
+      "성장"
+    ],
+    "pickRate": 56.23
+  },
+  {
+    "id": "its-go-time",
+    "name": "출발할 시간",
+    "en": "Its Go Time",
+    "rarity": "silver",
+    "description": "지정된 스킬을 사용하면 일정 시간 이동 속도가 상승합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/its-go-time/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "스킬 강화"
+    ],
+    "pickRate": 8.59
+  },
+  {
+    "id": "vulnerability",
+    "name": "취약",
+    "en": "Vulnerability",
+    "rarity": "gold",
+    "description": "치명타 확률을 얻습니다. 아이템 피해와 지속 피해에도 치명타가 적용될 수 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/vulnerability/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "지속 피해"
+    ],
+    "pickRate": 37.67
+  },
+  {
+    "id": "crit-n-cast",
+    "name": "치명적 가속",
+    "en": "Crit N Cast",
+    "rarity": "silver",
+    "description": "치명타 확률의 40%에 해당하는 스킬 가속을 추가로 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/crit-n-cast/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "스킬 가속"
+    ],
+    "pickRate": 10.29
+  },
+  {
+    "id": "critical-rhythm",
+    "name": "치명적 리듬",
+    "en": "Critical Rhythm",
+    "rarity": "gold",
+    "description": "치명타 확률을 얻습니다. 치명타가 적중할 때마다 공격 속도가 일정 한도까지 중첩됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/critical-rhythm/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "기본 공격",
+      "성장"
+    ],
+    "pickRate": 24.87
+  },
+  {
+    "id": "critical-missile",
+    "name": "치명적 미사일",
+    "en": "Critical Missile",
+    "rarity": "gold",
+    "description": "치명타 적중 시 폭죽 미사일을 발사합니다. 치명타 확률을 얻고 높은 치명타 확률에서는 더 많은 미사일이 나갑니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/critical-missile/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "기본 공격"
+    ],
+    "pickRate": 41.64
+  },
+  {
+    "id": "critical-healing",
+    "name": "치명적 치유",
+    "en": "Critical Healing",
+    "rarity": "gold",
+    "description": "치명타 확률을 얻고, 치유·보호막 효과가 치명타 확률에 따라 더 강하게 발동할 수 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/critical-healing/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "체력",
+      "회복"
+    ],
+    "pickRate": 3.64
+  },
+  {
+    "id": "its-critical",
+    "name": "치명적인 공격",
+    "en": "Its Critical",
+    "rarity": "gold",
+    "description": "치명타 확률이 50% 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/its-critical/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타"
+    ],
+    "pickRate": 16.01
+  },
+  {
+    "id": "quest-steel-your-heart",
+    "name": "퀘스트: 강철 같은 심장",
+    "en": "Quest Steel Your Heart",
+    "rarity": "gold",
+    "description": "강철심장으로 추가 체력 300을 쌓는 퀘스트입니다. 달성 후 강철심장의 체력 성장량이 크게 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/quest-steel-your-heart/",
+    "icon": null,
+    "aliases": [
+      "강철 같은 심장"
+    ],
+    "tags": [
+      "체력",
+      "성장"
+    ],
+    "pickRate": 31.37
+  },
+  {
+    "id": "quest-wooglets-witchcap",
+    "name": "퀘스트: 우글렛의 마녀 모자",
+    "en": "Quest Wooglets Witchcap",
+    "rarity": "prismatic",
+    "description": "큰 지팡이를 얻습니다. 라바돈과 존야를 갖추면 두 아이템이 우글렛의 마녀 모자로 합쳐집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/quest-wooglets-witchcap/",
+    "icon": null,
+    "aliases": [
+      "우글렛의 마녀 모자"
+    ],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 16.8
+  },
+  {
+    "id": "quest-urfs-champion",
+    "name": "퀘스트: 우르프의 챔피언",
+    "en": "Quest Urfs Champion",
+    "rarity": "prismatic",
+    "description": "챔피언 처치 관여 18회를 달성하면 보상으로 황금 주걱을 획득합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/quest-urfs-champion/",
+    "icon": null,
+    "aliases": [
+      "우르프의 챔피언"
+    ],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 15.54
+  },
+  {
+    "id": "prom-queen",
+    "name": "퀸카",
+    "en": "Prom Queen",
+    "rarity": "prismatic",
+    "description": "주기적으로 이동 속도가 상승하며 통과한 적을 매혹하는 돌진 상태가 됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/prom-queen/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 2.67
+  },
+  {
+    "id": "searing-dawn",
+    "name": "타오르는 새벽",
+    "en": "Searing Dawn",
+    "rarity": "gold",
+    "description": "스킬 피해로 햇살 표식을 남깁니다. 아군이 표식 대상에게 공격을 적중시키면 추가 마법 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/searing-dawn/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 3.76
+  },
+  {
+    "id": "combusting-interest",
+    "name": "타오르는 이자",
+    "en": "Combusting Interest",
+    "rarity": "gold",
+    "description": "적 챔피언에게 가하는 화상과 지속 피해가 추가 골드를 생성합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/combusting-interest/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "지속 피해",
+      "골드"
+    ],
+    "pickRate": 37.53
+  },
+  {
+    "id": "fan-the-hammer",
+    "name": "탄환 세례",
+    "en": "Fan The Hammer",
+    "rarity": "prismatic",
+    "description": "적을 서로 다른 방향에서 기본 공격하면 추가 화살을 발사합니다. 화살에는 치명타와 일부 적중 시 효과가 적용됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/fan-the-hammer/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "기본 공격"
+    ],
+    "pickRate": 22.44
+  },
+  {
+    "id": "typhoon",
+    "name": "태풍",
+    "en": "Typhoon",
+    "rarity": "silver",
+    "description": "기본 공격 시 다른 대상에게도 화살을 발사합니다. 추가 화살에는 적중 시 효과가 적용됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/typhoon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 18.36
+  },
+  {
+    "id": "tap-dancer",
+    "name": "탭 댄서",
+    "en": "Tap Dancer",
+    "rarity": "prismatic",
+    "description": "기본 공격으로 이동 속도를 중첩합니다. 이동 속도에 비례한 공격 속도도 추가로 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/tap-dancer/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "이동",
+      "성장"
+    ],
+    "pickRate": 13.05
+  },
+  {
+    "id": "tank-engine",
+    "name": "탱크 엔진",
+    "en": "Tank Engine",
+    "rarity": "gold",
+    "description": "처치 관여마다 최대 체력과 크기가 증가합니다. 사망하면 누적 중첩의 일부를 잃습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/tank-engine/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "성장"
+    ],
+    "pickRate": 42.61
+  },
+  {
+    "id": "pandorasbox",
+    "name": "판도라의 상자",
+    "en": "Pandorasbox",
+    "rarity": "prismatic",
+    "description": "현재 보유한 증강을 같은 개수의 무작위 프리즘 증강으로 모두 교체합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pandorasbox/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 19.34
+  },
+  {
+    "id": "poro-stampede",
+    "name": "포로 쇄도",
+    "en": "Poro Stampede",
+    "rarity": "prismatic",
+    "description": "포로에게 간식을 주는 퀘스트를 진행합니다. 보상으로 적에게 포로 무리를 보내는 소환사 주문을 얻습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/poro-stampede/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "성장"
+    ],
+    "pickRate": 1.18
+  },
+  {
+    "id": "dive-bomber",
+    "name": "폭격기",
+    "en": "Dive Bomber",
+    "rarity": "silver",
+    "description": "사망할 때 폭발하여 주변 적에게 각 대상 최대 체력에 비례한 고정 피해를 줍니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/dive-bomber/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력"
+    ],
+    "pickRate": 29.02
+  },
+  {
+    "id": "poltergeist",
+    "name": "폴터가이스트",
+    "en": "Poltergeist",
+    "rarity": "silver",
+    "description": "소환사 주문 하나를 폴터가이스트로 교체합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/poltergeist/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "유틸리티"
+    ],
+    "pickRate": 3.32
+  },
+  {
+    "id": "protein-shake",
+    "name": "프로틴 음료",
+    "en": "Protein Shake",
+    "rarity": "prismatic",
+    "description": "치유·보호막 효과가 증가합니다. 추가 방어력과 마법 저항력이 높을수록 증가량이 커집니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/protein-shake/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복"
+    ],
+    "pickRate": 2.36
+  },
+  {
+    "id": "pinball",
+    "name": "핀볼",
+    "en": "Pinball",
+    "rarity": "gold",
+    "description": "눈덩이가 지형에 튕기는 핀볼로 바뀝니다. 튕길수록 크기·피해·사거리가 증가하고 재사용 대기시간이 줄어듭니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/pinball/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동"
+    ],
+    "pickRate": 13.11
+  },
+  {
+    "id": "leg-day",
+    "name": "하체 운동의 날",
+    "en": "Leg Day",
+    "rarity": "silver",
+    "description": "이동 속도와 둔화 저항을 획득하여 추격과 회피를 돕습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/leg-day/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "이동",
+      "군중 제어"
+    ],
+    "pickRate": 28.27
+  },
+  {
+    "id": "double-tap",
+    "name": "한 발에 두 놈",
+    "en": "Double Tap",
+    "rarity": "prismatic",
+    "description": "치명타 확률을 얻습니다. 기본 공격이 치명타로 적중하면 적중 시 효과를 한 번 더 적용합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/double-tap/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타",
+      "기본 공격"
+    ],
+    "pickRate": 16.69
+  },
+  {
+    "id": "firebrand",
+    "name": "화염 낙인",
+    "en": "Firebrand",
+    "rarity": "gold",
+    "description": "기본 공격이 대상 최대 체력에 비례한 화상을 남깁니다. 화상은 반복 공격으로 중첩됩니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/firebrand/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격",
+      "체력",
+      "지속 피해"
+    ],
+    "pickRate": 13.83
+  },
+  {
+    "id": "stay-resolute",
+    "name": "확고한 의지로",
+    "en": "Stay Resolute",
+    "rarity": "silver",
+    "description": "지정된 스킬을 적 챔피언에게 적중시키면 방어력과 마법 저항력이 상승합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/stay-resolute/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "스킬 강화"
+    ],
+    "pickRate": 10.16
+  },
+  {
+    "id": "tank-it-or-leave-it",
+    "name": "확률적 방어",
+    "en": "Tank It Or Leave It",
+    "rarity": "silver",
+    "description": "치명타 확률을 획득합니다. 치명타 확률에 비례한 확률로 받는 피해를 줄입니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/tank-it-or-leave-it/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "치명타"
+    ],
+    "pickRate": 19.17
+  },
+  {
+    "id": "kill-secured",
+    "name": "확보된 킬",
+    "en": "Kill Secured",
+    "rarity": "silver",
+    "description": "체력이 낮은 적 챔피언을 향해 이동할 때 이동 속도가 크게 증가합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/kill-secured/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "이동"
+    ],
+    "pickRate": 10.13
+  },
+  {
+    "id": "ethereal-weapon",
+    "name": "환영 무기",
+    "en": "Ethereal Weapon",
+    "rarity": "gold",
+    "description": "스킬 피해가 적중 시 효과를 발동합니다. 같은 대상에 대한 재발동 대기시간이 있습니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/ethereal-weapon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "기본 공격"
+    ],
+    "pickRate": 43.03
+  },
+  {
+    "id": "donation",
+    "name": "후원",
+    "en": "Donation",
+    "rarity": "gold",
+    "description": "즉시 2,500골드를 획득하여 아이템 구매를 앞당깁니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/donation/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "골드"
+    ],
+    "pickRate": 27.06
+  },
+  {
+    "id": "siphon",
+    "name": "흡수",
+    "en": "Siphon",
+    "rarity": "silver",
+    "description": "지정된 스킬로 적 챔피언에게 피해를 줄 때 체력을 회복합니다.",
+    "source": "https://arammayhem.com/ko-kr/augments/siphon/",
+    "icon": null,
+    "aliases": [],
+    "tags": [
+      "체력",
+      "회복",
+      "스킬 강화"
+    ],
+    "pickRate": 17.59
+  },
+  {
+    "id": "watchful-ward",
+    "name": "감시의 장막",
+    "en": "Watchful Ward",
+    "rarity": "silver",
+    "description": "일정 주기마다 적 스킬을 한 번 막는 주문 방어막을 얻습니다. 방어막으로 중요한 적 스킬을 막을 수 있습니다.",
+    "tags": [
+      "방어",
+      "주문 방어막"
+    ],
+    "source": "https://www.leagueoflegends.com/ko-kr/news/game-updates/patch-25-22-notes/",
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "upgrade-ravenous-hydra",
+    "name": "굶주린 히드라 업그레이드",
+    "en": "Upgrade: Ravenous Hydra",
+    "rarity": "gold",
+    "description": "스킬 적중으로 굶주린 히드라의 쪼개기를 발동시킬 수 있고, 해당 아이템의 생명력 흡수 효과가 강화됩니다. 굶주린 히드라가 필요합니다.",
+    "tags": [
+      "아이템 강화",
+      "흡혈"
+    ],
+    "source": "https://aramkit.com/ko-KR/augments/upgrade-ravenous-hydra",
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "ultra-hydra",
+    "name": "궁극의 히드라",
+    "en": "Ultra Hydra",
+    "rarity": "prismatic",
+    "description": "히드라 아이템을 완성하면 티아맷을 얻습니다. 거대한·굶주린·불경한 히드라를 모두 모으면 궁극의 히드라를 획득하는 퀘스트입니다.",
+    "tags": [
+      "아이템 강화",
+      "퀘스트"
+    ],
+    "source": "https://arammayhem.com/ko-kr/augments/ultra-hydra/",
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "upgrade-sword-of-blossoming-dawn",
+    "name": "꽃피는 새벽의 검 업그레이드",
+    "en": "Upgrade: Sword of Blossoming Dawn",
+    "rarity": "prismatic",
+    "description": "공격 속도가 크게 증가합니다. 적 챔피언을 공격할 때 꽃피는 새벽의 검으로 아군을 회복시키는 효과가 강화됩니다.",
+    "tags": [
+      "공격 속도",
+      "회복",
+      "아이템 강화"
+    ],
+    "source": "https://aramgg.com/ko/augments/1379",
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "earthwake",
+    "name": "대지의 각성",
+    "en": "Earthwake",
+    "rarity": "prismatic",
+    "description": "돌진·도약·점멸·순간이동 스킬이 지나간 자리에 흔적을 남깁니다. 흔적은 1초 뒤 폭발해 물리 피해를 줍니다.",
+    "source": "https://aramkit.com/ko-KR/augments/earthwake",
+    "tags": [
+      "이동",
+      "추가 피해"
+    ],
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "ult-bot",
+    "name": "궁극기 봇",
+    "en": "Ult Bot",
+    "rarity": "prismatic",
+    "description": "스킬 가속을 100 얻습니다. 스킬 가속이 궁극기에만 적용되는 대신 그 효과가 50% 증가합니다.",
+    "source": "https://aramkit.com/ko-KR/augments/ult-bot",
+    "tags": [
+      "궁극기",
+      "스킬 가속"
+    ],
+    "aliases": [],
+    "icon": null
+  },
+  {
+    "id": "flashy",
+    "name": "점멸 난사",
+    "en": "Flashy",
+    "rarity": "gold",
+    "description": "점멸을 최대 3회 충전해 사용할 수 있습니다. 120초가 지나면 사용 횟수가 모두 다시 충전됩니다.",
+    "source": "https://aramgg.com/ko/augments/1116",
+    "tags": [
+      "이동",
+      "소환사 주문"
+    ],
+    "aliases": [],
+    "icon": null
+  }
+]
