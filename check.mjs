@@ -5,8 +5,11 @@ const root=new URL('./',import.meta.url);
 const read=n=>JSON.parse(fs.readFileSync(new URL(n,root),'utf8'));
 const data={champions:read('champions.json'),augments:read('augments.json'),stats:read('champion-stats.json')};
 const elements=new Map();
+const listeners=new Map();
+const on=(type,handler)=>{if(!listeners.has(type))listeners.set(type,[]);listeners.get(type).push(handler)};
+const dispatch=(type,target,props={})=>{for(const handler of listeners.get(type)||[])handler({target,...props})};
 const element=id=>{if(!elements.has(id))elements.set(id,{innerHTML:'',value:'',style:{},addEventListener(){},focus(){},classList:{add(){},remove(){}},showModal(){this.open=true},close(){this.open=false}});return elements.get(id)};
-const context=vm.createContext({console,URLSearchParams,setTimeout,clearTimeout,location:{hash:''},localStorage:{getItem(){return'[]'},setItem(){}},window:{scrollY:0,scrollTo(){},addEventListener(){}},document:{activeElement:null,querySelector:element,getElementById:element,addEventListener(){}},inputData:data});
+const context=vm.createContext({console,URLSearchParams,setTimeout,clearTimeout,location:{hash:''},localStorage:{getItem(){return'[]'},setItem(){}},window:{scrollY:0,scrollTo(){},addEventListener(){}},document:{activeElement:null,querySelector:element,getElementById:element,addEventListener:on},inputData:data});
 const code=fs.readFileSync(new URL('app.js',root),'utf8').replace(/boot\(\);\s*$/,'');
 vm.runInContext(code,context);
 vm.runInContext(`champions=inputData.champions;augments=inputData.augments;stats=inputData.stats;cMap=new Map(champions.map(c=>[c.id,c]));aMap=new Map();for(const a of augments){aMap.set(a.name,a);aMap.set(a.name.replace(/^퀘스트:\\s*/,''),a);for(const n of a.aliases||[])aMap.set(n,a)}for(const s of Object.values(stats)){s.augments=s.augments.map(r=>({...r,name:byName(r.name).name}));s.combos=s.combos.map(r=>({...r,names:r.names.map(n=>byName(n).name)}))}`,context);
@@ -53,5 +56,47 @@ assert.ok(vm.runInContext('championSelect(false)',context).includes('data-id="Ah
 vm.runInContext(`state.champQuery='';state.onlyStats=true`,context);
 assert.equal((vm.runInContext('championSelect(false)',context).match(/data-action="select-champ"/g)||[]).length,Object.keys(data.stats).length);
 assert.equal(vm.runInContext('signedDelta(-2.5)',context),'-2.5');
+// Exercise the actual delegated handlers and count DOM replacements during IME input.
+let renderCount=0,appHtml='';
+Object.defineProperty(element('#app'),'innerHTML',{get:()=>appHtml,set:value=>{appHtml=value;renderCount++}});
+for(const [id,key,page,word,match] of [
+ ['augment-search','query','augments','신비한 주먹','신비한 주먹'],
+ ['champ-search','champQuery','champions','아리','data-id="Ahri"']
+]){
+ vm.runInContext(`state.page=${JSON.stringify(page)};state.${key}='';state.onlyStats=false;state.onlySaved=false;state.role='all';state.rarity='all';state.limit=96`,context);
+ const input={id,value:''};
+ const value=()=>vm.runInContext(`state.${key}`,context);
+ let before=renderCount;
+ dispatch('compositionstart',input);
+ for(const partial of ['ㅅ','시','신',word]){
+  input.value=partial;dispatch('input',input,{isComposing:true});
+  assert.equal(renderCount,before,`${id}: composing input must retain its DOM node`);
+  assert.equal(value(),'');
+ }
+ // Some browsers report the final input as non-composing before compositionend.
+ dispatch('input',input,{isComposing:false});assert.equal(renderCount,before);
+ dispatch('compositionend',input);
+ assert.equal(value(),word);assert.equal(renderCount,before+1);assert.ok(appHtml.includes(match));
+ if(key==='query')assert.equal(vm.runInContext('state.limit',context),32);
+ // Other browsers emit a final input after compositionend, possibly on the new node.
+ dispatch('input',{id,value:word},{isComposing:false});assert.equal(renderCount,before+1);
+ // Consecutive syllables and canceled composition must not lose or duplicate text.
+ before=renderCount;dispatch('compositionstart',input);
+ input.value=word+'ㄱ';dispatch('input',input,{isComposing:true});
+ input.value=word+'가';dispatch('compositionend',input);
+ assert.equal(value(),word+'가');assert.equal(renderCount,before+1);
+ before=renderCount;dispatch('compositionstart',input);dispatch('compositionend',input);
+ assert.equal(renderCount,before);
+ // Native isComposing also protects an event without an observed compositionstart.
+ input.value='ㅂ';dispatch('input',input,{isComposing:true});assert.equal(renderCount,before);
+ input.value=word;dispatch('compositionend',input);assert.equal(value(),word);
+ // Latin typing, paste, deletion, and clearing still filter immediately.
+ for(const text of ['a','Ahri','신비한 주먹','신비한 주','']){
+  input.value=text;before=renderCount;dispatch('input',input,{isComposing:false});
+  assert.equal(value(),text);assert.equal(renderCount,before+1);
+ }
+}
+console.log('PASS: Korean IME composition, both final-input event orders, repeated/canceled composition, Latin input, paste, deletion, and clearing in both search fields.');
 console.log(`PASS: ${data.augments.length} augment descriptions and tiers, ${data.champions.length} portrait URLs, ${Object.keys(data.stats).length} champion datasets, ${pageChecks+1} page templates, all detail views, aliases, ranking endpoints, filters, ties, score bounds, known/unknown/duplicate combos.`);
 console.log('Browser layout and interaction QA: unavailable (managed preview supervisor missing).');
+

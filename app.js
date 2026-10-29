@@ -56,9 +56,28 @@ function detail(id){const a=augments.find(x=>x.id===id)||byName(decodeURICompone
 function inspectSlots(){if(!state.slot1&&!state.slot2){toast('증강을 먼저 선택해 주세요.');return}const aa=[state.slot1,state.slot2].filter(Boolean).map(byName);showModal(`<div class="modal-head"><h2>선택한 증강 효과</h2><button class="icon-button" data-action="close-modal" aria-label="닫기">${icon('close')}</button></div>${aa.map(a=>`<div class="modal-section"><div class="aug-heading">${symbol(a)}<div><h3>${esc(a.name)}</h3>${badge(a)}</div></div><p class="modal-desc">${esc(a.description)}</p><a class="source-link" href="${esc(a.source)}" target="_blank" rel="noopener">효과 원문 ↗</a></div>`).join('')}<p class="small-note">효과의 결합 가능성과 밸런스는 패치 및 게임 내 발동 조건에 따라 달라집니다.</p>`)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(!b)return;if(b.closest('#modal')&&!$('#modal').open)return;const act=b.dataset.action,id=b.dataset.id;if(act==='detail'){detail(id);return}if(act==='close-modal'){$('#modal').close();return}if(act==='save'||act==='save-modal'){e.stopPropagation();const isSaved=saved.includes(id);saved=isSaved?saved.filter(x=>x!==id):[...saved,id];persist();toast(isSaved?'저장한 증강에서 제거했습니다.':'증강을 저장했습니다.');render();if(act==='save-modal')detail(id);return}if(act==='select-champ'){state.champ=id;state.slot1='';state.slot2='';render();return}if(act==='detail-champ'){state.champ=id;$('#modal').close();navigate('champions');return}if(act==='saved-page'){state.onlySaved=true;state.query='';state.rarity='all';navigate('augments');return}if(act==='rarity-page'){state.rarity=id;state.onlySaved=false;state.query='';navigate('augments');return}if(act==='rarity'){state.rarity=id;state.limit=32;render();return}if(act==='role'){state.role=id;render();return}if(act==='go-champions'){state.champQuery='';state.role='all';state.onlyStats=false;navigate('champions');return}if(act==='reset-catalog'){state.query='';state.rarity='all';state.onlySaved=false;render();return}if(act==='load-more'){state.limit+=32;render();return}if(act==='reset-min'){state.minPick=0;state.comboMin=0;render();return}if(act==='use-combo'){[state.slot1,state.slot2]=JSON.parse(b.dataset.names);render();document.querySelector('.builder').scrollIntoView({behavior:'smooth',block:'center'});return}if(act==='reset-slots'){state.slot1='';state.slot2='';render();return}if(act==='inspect-slots'){inspectSlots();return}});
 document.addEventListener('keydown',e=>{const b=e.target.closest('[role="button"][data-action]');if(b&&(e.key==='Enter'||e.key===' ')){e.preventDefault();b.click()}});
-document.addEventListener('input',e=>{const el=e.target;if(el.id==='augment-search'){state.query=el.value;state.limit=32;render()}if(el.id==='champ-search'){state.champQuery=el.value;render()}if(el.id==='weight-range'){state.weight=Number(el.value);render()}if(el.id==='haste-range'){const n=Number(el.value),cd=10/(1+n/100);$('#haste-output').textContent=n;$('#haste-caption').textContent=`가속 ${n} · ${cd.toFixed(2)}초`;$('#haste-bar').style.height=cd*8+'px'}});
+const composingSearchInputs=new WeakSet();
+const isSearchInput=el=>el.id==='augment-search'||el.id==='champ-search';
+function updateSearchInput(el){
+ const key=el.id==='augment-search'?'query':'champQuery';
+ if(state[key]===el.value)return;
+ state[key]=el.value;
+ if(key==='query')state.limit=32;
+ render();
+}
+document.addEventListener('compositionstart',e=>{if(isSearchInput(e.target))composingSearchInputs.add(e.target)});
+document.addEventListener('compositionend',e=>{
+ const el=e.target;if(!isSearchInput(el))return;
+ composingSearchInputs.delete(el);
+ updateSearchInput(el);
+});
+document.addEventListener('input',e=>{const el=e.target;
+ // Replacing the input during IME composition interrupts Korean syllables.
+ if(isSearchInput(el)){if(!e.isComposing&&!composingSearchInputs.has(el))updateSearchInput(el);return}
+ if(el.id==='weight-range'){state.weight=Number(el.value);render()}if(el.id==='haste-range'){const n=Number(el.value),cd=10/(1+n/100);$('#haste-output').textContent=n;$('#haste-caption').textContent=`가속 ${n} · ${cd.toFixed(2)}초`;$('#haste-bar').style.height=cd*8+'px'}});
 document.addEventListener('change',e=>{const el=e.target;if(el.id==='only-stats'){state.onlyStats=el.checked;render()}if(el.id==='favorites-only'){state.onlySaved=el.checked;render()}if(el.id==='catalog-sort'){state.sort=el.value;render()}if(el.id==='min-pick'){state.minPick=Number(el.value);render()}if(el.id==='combo-min'){state.comboMin=Number(el.value);render()}if(el.id==='combo-champion'){state.champ=el.value;state.slot1='';state.slot2='';render()}if(el.id==='combo-slot-1'){state.slot1=el.value;render()}if(el.id==='combo-slot-2'){state.slot2=el.value;render()}});
 $('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))$('#modal').close()});
 window.addEventListener('hashchange',readRoute);
 async function boot(){try{const files=await Promise.all(['champions.json','augments.json','champion-stats.json'].map(async f=>{const r=await fetch(f);if(!r.ok)throw Error(f);return r.json()}));[champions,augments,stats]=files;augments=Array.isArray(augments)?augments:augments.augments||augments.rows||[];augments=augments.map(a=>({...a,id:a.id||a.slug,name:a.name,description:a.description||a.effect||'',tags:a.tags||[]}));cMap=new Map(champions.map(c=>[c.id,c]));aMap=new Map(augments.map(a=>[a.name,a]));for(const a of augments){aMap.set(a.name.replace(/^퀘스트:\s*/,''),a);if(a.aliases)for(const n of a.aliases)aMap.set(n,a)}for(const s of Object.values(stats)){s.augments=s.augments.map(r=>({...r,name:byName(r.name).name}));s.combos=s.combos.map(r=>({...r,names:r.names.map(n=>byName(n).name)}))}readRoute()}catch(e){$('#app').innerHTML='<div class="loading"><div><h2>도감을 불러오지 못했습니다.</h2><p style="margin-top:12px">연결을 확인한 뒤 다시 시도해 주세요.</p><button class="btn" onclick="location.reload()" style="margin-top:15px">다시 불러오기</button></div></div>';console.error(e)}}
 boot();
+
