@@ -56,15 +56,18 @@ assert.ok(vm.runInContext('championSelect(false)',context).includes('data-id="Ah
 vm.runInContext(`state.champQuery='';state.onlyStats=true`,context);
 assert.equal((vm.runInContext('championSelect(false)',context).match(/data-action="select-champ"/g)||[]).length,Object.keys(data.stats).length);
 assert.equal(vm.runInContext('signedDelta(-2.5)',context),'-2.5');
-// Exercise the actual delegated handlers and count DOM replacements during IME input.
+// Search must never replace the app or its input, even after each committed syllable.
 let renderCount=0,appHtml='';
-Object.defineProperty(element('#app'),'innerHTML',{get:()=>appHtml,set:value=>{appHtml=value;renderCount++}});
+Object.defineProperty(element('#app'),'innerHTML',{get:()=>'',set:()=>assert.fail('Search must retain the app and input DOM nodes')});
+for(const selector of ['#augment-results','#champion-results'])Object.defineProperty(element(selector),'innerHTML',{get:()=>appHtml,set:value=>{appHtml=value;renderCount++}});
 for(const [id,key,page,word,match] of [
  ['augment-search','query','augments','신비한 주먹','신비한 주먹'],
- ['champ-search','champQuery','champions','아리','data-id="Ahri"']
+ ['champ-search','champQuery','champions','아리','data-id="Ahri"'],
+ ['champ-search','champQuery','home','아우렐리온 솔','data-id="AurelionSol"']
 ]){
  vm.runInContext(`state.page=${JSON.stringify(page)};state.${key}='';state.onlyStats=false;state.onlySaved=false;state.role='all';state.rarity='all';state.limit=96`,context);
- const input={id,value:''};
+ const input={id,value:'',selectionStart:0,selectionEnd:0};
+ context.document.activeElement=input;
  const value=()=>vm.runInContext(`state.${key}`,context);
  let before=renderCount;
  dispatch('compositionstart',input);
@@ -78,8 +81,8 @@ for(const [id,key,page,word,match] of [
  dispatch('compositionend',input);
  assert.equal(value(),word);assert.equal(renderCount,before+1);assert.ok(appHtml.includes(match));
  if(key==='query')assert.equal(vm.runInContext('state.limit',context),32);
- // Other browsers emit a final input after compositionend, possibly on the new node.
- dispatch('input',{id,value:word},{isComposing:false});assert.equal(renderCount,before+1);
+ // Other browsers emit a final input after compositionend on the same node.
+ dispatch('input',input,{isComposing:false});assert.equal(renderCount,before+1);
  // Consecutive syllables and canceled composition must not lose or duplicate text.
  before=renderCount;dispatch('compositionstart',input);
  input.value=word+'ㄱ';dispatch('input',input,{isComposing:true});
@@ -87,6 +90,21 @@ for(const [id,key,page,word,match] of [
  assert.equal(value(),word+'가');assert.equal(renderCount,before+1);
  before=renderCount;dispatch('compositionstart',input);dispatch('compositionend',input);
  assert.equal(renderCount,before);
+ // Commit successive syllables with a new composition session for every syllable.
+ input.value='';dispatch('input',input,{isComposing:false});
+ let prefix='';
+ for(const syllable of word){
+  before=renderCount;dispatch('compositionstart',input);
+  input.value=prefix+'ㅇ';dispatch('input',input,{isComposing:true});
+  assert.equal(renderCount,before);
+  prefix+=syllable;input.value=prefix;
+  input.selectionStart=input.selectionEnd=prefix.length;
+  dispatch('compositionend',input);dispatch('input',input,{isComposing:false});
+  assert.equal(value(),prefix);assert.equal(input.value,prefix);
+  assert.equal(input.selectionStart,prefix.length);assert.equal(input.selectionEnd,prefix.length);
+  assert.equal(context.document.activeElement,input);assert.equal(renderCount,before+1);
+ }
+ before=renderCount;
  // Native isComposing also protects an event without an observed compositionstart.
  input.value='ㅂ';dispatch('input',input,{isComposing:true});assert.equal(renderCount,before);
  input.value=word;dispatch('compositionend',input);assert.equal(value(),word);
@@ -98,5 +116,5 @@ for(const [id,key,page,word,match] of [
 }
 console.log('PASS: Korean IME composition, both final-input event orders, repeated/canceled composition, Latin input, paste, deletion, and clearing in both search fields.');
 console.log(`PASS: ${data.augments.length} augment descriptions and tiers, ${data.champions.length} portrait URLs, ${Object.keys(data.stats).length} champion datasets, ${pageChecks+1} page templates, all detail views, aliases, ranking endpoints, filters, ties, score bounds, known/unknown/duplicate combos.`);
-console.log('Browser layout and interaction QA: unavailable (managed preview supervisor missing).');
+console.log('Native browser IME checks: run node check-browser.mjs with Playwright and Chromium installed.');
 

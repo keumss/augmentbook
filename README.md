@@ -22,7 +22,15 @@ node --check app.js
 node check.mjs
 ```
 
-검사 범위: 전체 챔피언 초상화 URL과 선택 목록, 증강 설명·등급·이름 연결, 524개 화면 템플릿, 추천 계산, 필터, 조합의 확인·미확인·중복 상태입니다. 브라우저 화면 검증은 원본 작업의 미리보기 환경 문제로 완료되지 않았습니다.
+검색창은 입력 중 DOM 요소를 유지하고 결과 영역만 갱신합니다. 한글 조합 검사는 홈·챔피언·증강 검색의 연속 음절 입력, 커서·선택 영역 유지, 삭제·붙여넣기를 포함합니다. 실제 Chromium의 IME 입력 검사는 다음과 같이 실행하며, PR과 `master` 업데이트에서도 자동으로 검사합니다.
+
+```sh
+npm install --no-save --package-lock=false playwright@1.56.1
+npx playwright install --with-deps chromium
+node check-browser.mjs
+```
+
+데이터 검사 범위: 전체 챔피언 초상화 URL과 선택 목록, 증강 설명·등급·이름 연결, 524개 화면 템플릿, 추천 계산, 필터, 조합의 확인·미확인·중복 상태입니다.
 
 ## GitHub Pages
 
@@ -44,3 +52,4 @@ node check.mjs
 [SensorBook](https://sensorbook.euiyun.com/)의 설명 → 시각화 → 조작 흐름을 참고했습니다. 참고 사이트의 소스 코드를 복사하지 않았습니다. 배너는 이 프로젝트용으로 생성한 이미지이고 증강 아이콘은 직접 작성한 상징 그래픽입니다. 자세한 자산 설명은 [ASSETS.md](ASSETS.md)에 있습니다.
 
 비공식 팬 프로젝트이며 Riot Games와 제휴하거나 Riot Games의 보증을 받지 않습니다. League of Legends 및 관련 게임 자산의 권리는 Riot Games에 있습니다.
+
